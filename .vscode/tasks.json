@@ -7,7 +7,7 @@
       "label": "npm: dev",
       "detail": "vite",
       "options": {
-        "cwd": "${workspaceFolder}/src"  // Point to src folder
+        "cwd": "${workspaceFolder}/src"  // This tells npm to look for package.json in /src
       },
       "isBackground": true,
       "problemMatcher": {

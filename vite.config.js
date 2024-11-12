@@ -1,14 +1,20 @@
 import { defineConfig } from 'vite'
+import path from 'path'
 
 export default defineConfig({
-  base: '/',  // For custom domain
+  base: '/',
   build: {
-    outDir: '../dist',
-    sourcemap: true,  // Enable source maps
-    assetsDir: 'assets'
+    outDir: './dist',  // This will create dist in root
+    sourcemap: true,
+    assetsDir: 'assets',
+    emptyOutDir: true
   },
   root: './src',
   server: {
-    port: 5173
+    port: 5173,
+    fs: {
+      // Allow serving files from the project root
+      allow: ['..']
+    }
   }
 })

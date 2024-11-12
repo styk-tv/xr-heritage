@@ -1,0 +1,147 @@
+{
+    "entities": [
+      {
+        "type": "MythCharOrGroup",
+        "name": "Kronos",
+        "description": "Pre-Greek god, little worshipped in classical times with a harvest festival called Kronia."
+      },
+      {
+        "type": "MythCharOrGroup",
+        "name": "Rhea",
+        "description": "Consort of Kronos, associated with the legend of hiding her son Zeus from Kronos."
+      },
+      {
+        "type": "Event",
+        "name": "Kronia",
+        "description": "A harvest festival where social distinctions were temporarily abolished, celebrated in Athens, Rhodes, and Thebes."
+      },
+      {
+        "type": "RomanDeity",
+        "name": "Saturn",
+        "description": "Identified by Roman theorists as the equivalent of Kronos."
+      },
+      {
+        "type": "MythCharOrGroup",
+        "name": "Zeus",
+        "description": "Youngest child of Kronos and Rhea, hidden from Kronos and later overthrew him."
+      },
+      {
+        "type": "MythCharOrGroup",
+        "name": "Uranos",
+        "description": "Wounded by Kronos with a curved object, traditionally a knife."
+      },
+      {
+        "type": "Location",
+        "name": "Mt. Olympos",
+        "description": "The battleground where Zeus and his allies fought during the Titanomachy."
+      },
+      {
+        "type": "Location",
+        "name": "Mt. Orthrys",
+        "description": "Where the Titans, led by Kronos, battled against Zeus."
+      },
+      {
+        "type": "Location",
+        "name": "Tartaros",
+        "description": "The prison for the defeated Titans, guarded by the Hekatoncheires."
+      },
+      {
+        "type": "MythCharOrGroup",
+        "name": "Atlas",
+        "description": "Tasked with holding up the sky following the defeat of the Titans."
+      },
+      {
+        "type": "MythCharOrGroup",
+        "name": "Prometheus",
+        "description": "Ally of Zeus during the Titanomachy, later involved in negotiations with Zeus according to various legends."
+      },
+      {
+        "type": "MythCharOrGroup",
+        "name": "Themis",
+        "description": "Ally of Zeus during the Titanomachy."
+      },
+      {
+        "type": "MythCharOrGroup",
+        "name": "Styx",
+        "description": "Allied with Zeus alongside her brood."
+      },
+      {
+        "type": "Event",
+        "name": "Titanomachy",
+        "description": "The ten-year battle between the Titans and the Olympians, led by Zeus."
+      },
+      {
+        "type": "Location",
+        "name": "Santorin (Thera)",
+        "description": "A volcanic island with noted activity, potentially linked to the imagery of battles in mythology."
+      }
+    ],
+    "relationships": [
+      {
+        "subject": "Kronos",
+        "relationship": "isHusbandOf",
+        "object": "Rhea"
+      },
+      {
+        "subject": "Kronos",
+        "relationship": "hasChild",
+        "object": "Zeus"
+      },
+      {
+        "subject": "Zeus",
+        "relationship": "defeats",
+        "object": "Kronos"
+      },
+      {
+        "subject": "Rhea",
+        "relationship": "hasChild",
+        "object": "Zeus"
+      },
+      {
+        "subject": "Kronos",
+        "relationship": "wounds",
+        "object": "Uranos"
+      },
+      {
+        "subject": "Zeus",
+        "relationship": "imprisons",
+        "object": "Titans"
+      },
+      {
+        "subject": "Atlas",
+        "relationship": "holds",
+        "object": "Sky"
+      },
+      {
+        "subject": "Prometheus",
+        "relationship": "supports",
+        "object": "Zeus"
+      },
+      {
+        "subject": "Themis",
+        "relationship": "supports",
+        "object": "Zeus"
+      },
+      {
+        "subject": "Styx",
+        "relationship": "supports",
+        "object": "Zeus"
+      },
+      {
+        "subject": "Mt. Olympos",
+        "relationship": "locationOf",
+        "object": "Zeus' battle"
+      },
+      {
+        "subject": "Mt. Orthrys",
+        "relationship": "locationOf",
+        "object": "Titan's battle"
+      },
+      {
+        "subject": "Tartaros",
+        "relationship": "imprisons",
+        "object": "Defeated Titans"
+      }
+    ]
+  }
+  

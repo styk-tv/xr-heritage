@@ -5,8 +5,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "cross-env NODE_ENV=development vite",
+    "build": "cross-env NODE_ENV=production vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "3d-force-graph": "^1.73.5",
+    "cross-env": "^7.0.3",
     "three": "^0.170.0",
     "three-spritetext": "^1.9.0"
   }

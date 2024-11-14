@@ -1,98 +1,971 @@
 {
   "nodes": [
-    {"id": "Aphrodite", "kind": "Person", "group": 1},
-    {"id": "Zeus", "kind": "Person", "group": 1},
-    {"id": "Dione", "kind": "Person", "group": 1},
-    {"id": "Uranus", "kind": "Person", "group": 1},
-    {"id": "Cronus", "kind": "Person", "group": 1},
-    {"id": "Ares", "kind": "Person", "group": 1},
-    {"id": "Hephaestus", "kind": "Person", "group": 1},
-    {"id": "Eros", "kind": "Person", "group": 1},
-    {"id": "Anteros", "kind": "Person", "group": 1},
-    {"id": "Phobos", "kind": "Person", "group": 1},
-    {"id": "Deimos", "kind": "Person", "group": 1},
-    {"id": "Harmonia", "kind": "Person", "group": 1},
-    {"id": "Hermes", "kind": "Person", "group": 1},
-    {"id": "Hermaphroditus", "kind": "Person", "group": 1},
-    {"id": "Dionysus", "kind": "Person", "group": 1},
-    {"id": "Priapus", "kind": "Person", "group": 1},
-    {"id": "Poseidon", "kind": "Person", "group": 1},
-    {"id": "Rhodos", "kind": "Person", "group": 1},
-    {"id": "Herophilus", "kind": "Person", "group": 1},
-    {"id": "Anchises", "kind": "Person", "group": 1},
-    {"id": "Aeneas", "kind": "Person", "group": 1},
-    {"id": "Lyrus", "kind": "Person", "group": 1},
-    {"id": "Adonis", "kind": "Person", "group": 1},
-    {"id": "Paris", "kind": "Person", "group": 1},
-    {"id": "Menelaus", "kind": "Person", "group": 1},
-    {"id": "Smyrna", "kind": "Person", "group": 1},
-    {"id": "Myrrha", "kind": "Person", "group": 1},
-    {"id": "Cinyras", "kind": "Person", "group": 1},
-    {"id": "Butes", "kind": "Person", "group": 1},
-    {"id": "Venus", "kind": "RomanDeity", "group": 3},
-    {"id": "Love", "kind": "Domain", "group": 6},
-    {"id": "Beauty", "kind": "Domain", "group": 6},
-    {"id": "Gracefulness", "kind": "Domain", "group": 6},
-    {"id": "Sea Influence", "kind": "Domain", "group": 6},
-    {"id": "Cythera", "kind": "Location", "group": 4},
-    {"id": "Cyprus", "kind": "Location", "group": 4},
-    {"id": "Mount Ida", "kind": "Location", "group": 4},
-    {"id": "Olympus", "kind": "Location", "group": 4},
-    {"id": "Troas", "kind": "Location", "group": 4},
-    {"id": "Trojan War", "kind": "Event", "group": 5},
-    {"id": "Judgment of Paris", "kind": "Event", "group": 5},
-    {"id": "Anadyomene", "kind": "Epithet", "group": 7},
-    {"id": "Urania", "kind": "Epithet", "group": 7},
-    {"id": "Pandemos", "kind": "Epithet", "group": 7},
-    {"id": "Magic Girdle", "kind": "Symbol", "group": 8},
-    {"id": "Myrtle", "kind": "Symbol", "group": 8},
-    {"id": "Rose", "kind": "Symbol", "group": 8}
+    {
+      "id": "Aphrodite",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Ouranos",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Dione",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Zeus",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Hephaestus",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Ares",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Anchises",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Aeneas",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Lyrus",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Adonis",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Apollo",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Cyprus",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Cythera",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Kypros (Cyprus)",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Ourania (Urania)",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Female",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Goddess",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Maiden",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Paphian queen",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Belt",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Gold",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Hades",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Kronos",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Rhea",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Persephone",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Underworld",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Leuce",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Minthe",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Plouton",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Asklepios",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Medicine",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Thebes",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Plague",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Haides",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Plague of Thebes",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Poseidon",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "the lower world",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Erinyes",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Zagreus",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Melinoe",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Macaria",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Orpheus",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Eurydice",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "The Adventures of Heracles",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Deity",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "King",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Herakles",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Sisyphus",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Corinth",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Thanatos",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Merope",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Pirithous",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Abduction of Persephone",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Theseus",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Peirithoos",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Mythical Character",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "A\u00efdoneus",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "King of the Molossians",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Pluto",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Hera",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Hestia",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "God of the Sea",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "gai\u00eaochos",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "enosichth\u00f4n",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "kin\u00eat\u00ear gas",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Trident",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Amphitrite",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Triton",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Rhode",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Benthesicyme",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Neptunus",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Lyctos in Crete",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Mount Dicte",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Cronos",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Metis",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Athena",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Jupiter",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Cave of Mount Dicte",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Curetes",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Adrasteia",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Ida",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Crete",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Mount Ida",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Lightning",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Daimon",
+      "kind": "Person",
+      "group": 1
+    }
   ],
   "links": [
-    {"source": "Aphrodite", "target": "Zeus", "name": "HasFather"},
-    {"source": "Aphrodite", "target": "Dione", "name": "HasMother"},
-    {"source": "Aphrodite", "target": "Uranus", "name": "HasFather"},
-    {"source": "Aphrodite", "target": "Cronus", "name": "HasFather"},
-    {"source": "Aphrodite", "target": "Love", "name": "IsDeityOf"},
-    {"source": "Aphrodite", "target": "Beauty", "name": "IsDeityOf"},
-    {"source": "Aphrodite", "target": "Gracefulness", "name": "IsDeityOf"},
-    {"source": "Aphrodite", "target": "Sea Influence", "name": "IsDeityOf"},
-    {"source": "Aphrodite", "target": "Ares", "name": "HasLover"},
-    {"source": "Aphrodite", "target": "Eros", "name": "HasChild"},
-    {"source": "Aphrodite", "target": "Anteros", "name": "HasChild"},
-    {"source": "Aphrodite", "target": "Phobos", "name": "HasChild"},
-    {"source": "Aphrodite", "target": "Deimos", "name": "HasChild"},
-    {"source": "Aphrodite", "target": "Harmonia", "name": "HasChild"},
-    {"source": "Aphrodite", "target": "Hermes", "name": "HasLover"},
-    {"source": "Aphrodite", "target": "Hermaphroditus", "name": "HasChild"},
-    {"source": "Aphrodite", "target": "Dionysus", "name": "HasLover"},
-    {"source": "Aphrodite", "target": "Priapus", "name": "HasChild"},
-    {"source": "Aphrodite", "target": "Poseidon", "name": "HasLover"},
-    {"source": "Aphrodite", "target": "Rhodos", "name": "HasChild"},
-    {"source": "Aphrodite", "target": "Anchises", "name": "HasLover"},
-    {"source": "Aphrodite", "target": "Aeneas", "name": "HasChild"},
-    {"source": "Aphrodite", "target": "Lyrus", "name": "HasChild"},
-    {"source": "Aphrodite", "target": "Adonis", "name": "HasLover"},
-    {"source": "Aphrodite", "target": "Venus", "name": "HasRomanCounterpart"},
-    {"source": "Aphrodite", "target": "Trojan War", "name": "ParticipatesIn"},
-    {"source": "Aphrodite", "target": "Anadyomene", "name": "HasEpithet"},
-    {"source": "Aphrodite", "target": "Urania", "name": "HasEpithet"},
-    {"source": "Aphrodite", "target": "Pandemos", "name": "HasEpithet"},
-    {"source": "Aphrodite", "target": "Magic Girdle", "name": "HasIconographicSymbol"},
-    {"source": "Aphrodite", "target": "Myrtle", "name": "HasIconographicSymbol"},
-    {"source": "Aphrodite", "target": "Rose", "name": "HasIconographicSymbol"},
-    {"source": "Ares", "target": "Phobos", "name": "HasChild"},
-    {"source": "Ares", "target": "Deimos", "name": "HasChild"},
-    {"source": "Ares", "target": "Harmonia", "name": "HasChild"},
-    {"source": "Eros", "target": "Ares", "name": "HasFather"},
-    {"source": "Eros", "target": "Aphrodite", "name": "HasMother"},
-    {"source": "Anteros", "target": "Ares", "name": "HasFather"},
-    {"source": "Anteros", "target": "Aphrodite", "name": "HasMother"},
-    {"source": "Hermaphroditus", "target": "Hermes", "name": "HasFather"},
-    {"source": "Hermaphroditus", "target": "Aphrodite", "name": "HasMother"},
-    {"source": "Priapus", "target": "Dionysus", "name": "HasFather"},
-    {"source": "Priapus", "target": "Aphrodite", "name": "HasMother"},
-    {"source": "Aeneas", "target": "Anchises", "name": "HasFather"},
-    {"source": "Aeneas", "target": "Aphrodite", "name": "HasMother"}
+    {
+      "source": "Aphrodite",
+      "target": "Ouranos",
+      "name": "HasFatherStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Dione",
+      "name": "HasMotherStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Zeus",
+      "name": "HasFatherStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Hephaestus",
+      "name": "IsWifeOfStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Ares",
+      "name": "HasLoverStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Anchises",
+      "name": "HasLoverStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Aeneas",
+      "name": "HasSonStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Lyrus",
+      "name": "HasSonStatement"
+    },
+    {
+      "source": "Adonis",
+      "target": "Ares",
+      "name": "KilledByStatement"
+    },
+    {
+      "source": "Adonis",
+      "target": "Apollo",
+      "name": "KilledByStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Cyprus",
+      "name": "ResidenceStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Cythera",
+      "name": "ResidenceStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Kypros (Cyprus)",
+      "name": "IsDeityOfStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Kypros (Cyprus)",
+      "name": "PlaceOfBirthStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Ourania (Urania)",
+      "name": "HasEpithetStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Female",
+      "name": "HasGenderStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Goddess",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Zeus",
+      "name": "HasFatherStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Maiden",
+      "name": "AppearsInTheFormStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Paphian queen",
+      "name": "HasEpithetStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Belt",
+      "name": "WearsStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Belt",
+      "name": "WearsStatement"
+    },
+    {
+      "source": "Aphrodite",
+      "target": "Gold",
+      "name": "WearsStatement"
+    },
+    {
+      "source": "Hades",
+      "target": "Kronos",
+      "name": "HasFatherStatement"
+    },
+    {
+      "source": "Hades",
+      "target": "Rhea",
+      "name": "HasMotherStatement"
+    },
+    {
+      "source": "Hades",
+      "target": "Persephone",
+      "name": "IsHusbandOfStatement"
+    },
+    {
+      "source": "Hades",
+      "target": "Underworld",
+      "name": "IsKingOfStatement"
+    },
+    {
+      "source": "Hades",
+      "target": "Leuce",
+      "name": "HasLoverStatement"
+    },
+    {
+      "source": "Hades",
+      "target": "Minthe",
+      "name": "HasLoverStatement"
+    },
+    {
+      "source": "Plouton",
+      "target": "Persephone",
+      "name": "IsHusbandOfStatement"
+    },
+    {
+      "source": "Asklepios",
+      "target": "Medicine",
+      "name": "IsDeityOfStatement"
+    },
+    {
+      "source": "Thebes",
+      "target": "Plague",
+      "name": "CauseOfDeathStatement"
+    },
+    {
+      "source": "Haides",
+      "target": "Plague of Thebes",
+      "name": "ParticipatesInStatement"
+    },
+    {
+      "source": "Persephone",
+      "target": "Plague of Thebes",
+      "name": "ParticipatesInStatement"
+    },
+    {
+      "source": "Hades",
+      "target": "Rhea",
+      "name": "HasMotherStatement"
+    },
+    {
+      "source": "Hades",
+      "target": "Kronos",
+      "name": "HasFatherStatement"
+    },
+    {
+      "source": "Hades",
+      "target": "Zeus",
+      "name": "IsSiblingOfStatement"
+    },
+    {
+      "source": "Hades",
+      "target": "Poseidon",
+      "name": "IsSiblingOfStatement"
+    },
+    {
+      "source": "Hades",
+      "target": "the lower world",
+      "name": "IsKingOfStatement"
+    },
+    {
+      "source": "Hades",
+      "target": "Leuce",
+      "name": "HasLoverStatement"
+    },
+    {
+      "source": "Haides",
+      "target": "Zeus",
+      "name": "IsBrotherOfStatement"
+    },
+    {
+      "source": "Haides",
+      "target": "Poseidon",
+      "name": "IsBrotherOfStatement"
+    },
+    {
+      "source": "Haides",
+      "target": "Underworld",
+      "name": "IsKingOfStatement"
+    },
+    {
+      "source": "Haides",
+      "target": "Persephone",
+      "name": "IsHusbandOfStatement"
+    },
+    {
+      "source": "Haides",
+      "target": "Erinyes",
+      "name": "HasChildStatement"
+    },
+    {
+      "source": "Haides",
+      "target": "Zagreus",
+      "name": "HasChildStatement"
+    },
+    {
+      "source": "Haides",
+      "target": "Melinoe",
+      "name": "HasChildStatement"
+    },
+    {
+      "source": "Haides",
+      "target": "Macaria",
+      "name": "HasChildStatement"
+    },
+    {
+      "source": "Haides",
+      "target": "Minthe",
+      "name": "HasLoverStatement"
+    },
+    {
+      "source": "Hades",
+      "target": "Minthe",
+      "name": "HasLoverStatement"
+    },
+    {
+      "source": "Hades",
+      "target": "Leuce",
+      "name": "HasLoverStatement"
+    },
+    {
+      "source": "Orpheus",
+      "target": "Underworld",
+      "name": "ParticipatesInStatement"
+    },
+    {
+      "source": "Orpheus",
+      "target": "Eurydice",
+      "name": "HasLoverStatement"
+    },
+    {
+      "source": "Orpheus",
+      "target": "Eurydice",
+      "name": "IsHusbandOfStatement"
+    },
+    {
+      "source": "Orpheus",
+      "target": "The Adventures of Heracles",
+      "name": "ParticipatesInStatement"
+    },
+    {
+      "source": "Haides",
+      "target": "Deity",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "Haides",
+      "target": "King",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "Herakles",
+      "target": "Underworld",
+      "name": "ParticipatesInStatement"
+    },
+    {
+      "source": "Haides",
+      "target": "Herakles",
+      "name": "KilledByStatement"
+    },
+    {
+      "source": "Haides",
+      "target": "Herakles",
+      "name": "IsEnemyOfStatement"
+    },
+    {
+      "source": "Sisyphus",
+      "target": "Corinth",
+      "name": "IsKingOfStatement"
+    },
+    {
+      "source": "Sisyphus",
+      "target": "Thanatos",
+      "name": "KilledByStatement"
+    },
+    {
+      "source": "Sisyphus",
+      "target": "Merope",
+      "name": "IsHusbandOfStatement"
+    },
+    {
+      "source": "Pirithous",
+      "target": "Abduction of Persephone",
+      "name": "ParticipatesInStatement"
+    },
+    {
+      "source": "Pirithous",
+      "target": "Theseus",
+      "name": "IsFriendOfStatement"
+    },
+    {
+      "source": "Theseus",
+      "target": "Herakles",
+      "name": "IsSavedByStatement"
+    },
+    {
+      "source": "Peirithoos",
+      "target": "Mythical Character",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "Theseus",
+      "target": "Mythical Character",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "A\u00efdoneus",
+      "target": "King of the Molossians",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "Herakles",
+      "target": "Mythical Character",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Deity",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "Pluto",
+      "target": "Deity",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "Kronos",
+      "name": "HasFatherStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "Rhea",
+      "name": "HasMotherStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "Zeus",
+      "name": "IsSiblingOfStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "Hades",
+      "name": "IsSiblingOfStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "Hera",
+      "name": "IsSiblingOfStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "Hestia",
+      "name": "IsSiblingOfStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "God of the Sea",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "gai\u00eaochos",
+      "name": "HasEpithetStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "enosichth\u00f4n",
+      "name": "HasEpithetStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "kin\u00eat\u00ear gas",
+      "name": "HasEpithetStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "Trident",
+      "name": "HasIconographicSymbolStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "Amphitrite",
+      "name": "IsHusbandOfStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "Amphitrite",
+      "name": "IsHusbandOfStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "Triton",
+      "name": "HasChildStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "Rhode",
+      "name": "HasChildStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "Benthesicyme",
+      "name": "HasChildStatement"
+    },
+    {
+      "source": "Poseidon",
+      "target": "Neptunus",
+      "name": "HasRomanCounterpartStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Kronos",
+      "name": "HasFatherStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Rhea",
+      "name": "HasMotherStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Poseidon",
+      "name": "IsBrotherOfStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Hera",
+      "name": "IsHusbandOfStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Lyctos in Crete",
+      "name": "PlaceOfBirthStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Mount Dicte",
+      "name": "PlaceOfBirthStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Rhea",
+      "name": "HasMotherStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Cronos",
+      "name": "HasFatherStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Metis",
+      "name": "HasWifeStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Athena",
+      "name": "HasChildStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Jupiter",
+      "name": "HasRomanCounterpartStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Cave of Mount Dicte",
+      "name": "PlaceOfBirthStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Curetes",
+      "name": "CaregiverStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Adrasteia",
+      "name": "CaregiverStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Ida",
+      "name": "CaregiverStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Crete",
+      "name": "IsDeityOfStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Mount Ida",
+      "name": "ResidenceStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Lightning",
+      "name": "IsDeityOfStatement"
+    },
+    {
+      "source": "Zeus",
+      "target": "Daimon",
+      "name": "IsDeityOfStatement"
+    }
   ]
 }

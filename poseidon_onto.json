@@ -106,6 +106,131 @@
       "group": 1
     },
     {
+      "id": "Apollon",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Leto",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Artemis",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Delos",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "God of help and warding off evil",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "akesios",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Asclepius",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "God of prophecy",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "God of song and music",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "God who protects the flocks and cattle",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "the averter of evil",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Thessalian Tempe",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Delphi",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Crete",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Asia Minor",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Boeotia",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Attica",
+      "kind": "Place",
+      "group": 1
+    },
+    {
+      "id": "Greeks",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Romans",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Paian",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Tityoktonos",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Lykoreus",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Phoibos",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Pytheion",
+      "kind": "Person",
+      "group": 1
+    },
+    {
+      "id": "Titan",
+      "kind": "Person",
+      "group": 1
+    },
+    {
       "id": "Hades",
       "kind": "Person",
       "group": 1
@@ -406,11 +531,6 @@
       "group": 1
     },
     {
-      "id": "Crete",
-      "kind": "Place",
-      "group": 1
-    },
-    {
       "id": "Mount Ida",
       "kind": "Place",
       "group": 1
@@ -541,6 +661,151 @@
       "source": "Aphrodite",
       "target": "Gold",
       "name": "WearsStatement"
+    },
+    {
+      "source": "Apollon",
+      "target": "Zeus",
+      "name": "HasFatherStatement"
+    },
+    {
+      "source": "Apollon",
+      "target": "Leto",
+      "name": "HasMotherStatement"
+    },
+    {
+      "source": "Apollon",
+      "target": "Artemis",
+      "name": "IsSiblingOfStatement"
+    },
+    {
+      "source": "Apollon",
+      "target": "Delos",
+      "name": "PlaceOfBirthStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "God of help and warding off evil",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "akesios",
+      "name": "HasEpithetStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "Asclepius",
+      "name": "HasChildStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "God of prophecy",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "God of song and music",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "God who protects the flocks and cattle",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "the averter of evil",
+      "name": "IsAStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "Thessalian Tempe",
+      "name": "ResidenceStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "Delphi",
+      "name": "ResidenceStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "Crete",
+      "name": "ResidenceStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "Asia Minor",
+      "name": "ResidenceStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "Boeotia",
+      "name": "ResidenceStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "Attica",
+      "name": "ResidenceStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "Greeks",
+      "name": "IsDeityOfStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "Romans",
+      "name": "IsDeityOfStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "Delos",
+      "name": "ResidenceStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "Artemis",
+      "name": "IsSiblingOfStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "Leto",
+      "name": "IsSonOfStatement"
+    },
+    {
+      "source": "Apollo",
+      "target": "Zeus",
+      "name": "IsSonOfStatement"
+    },
+    {
+      "source": "Apollon",
+      "target": "Paian",
+      "name": "HasEpithetStatement"
+    },
+    {
+      "source": "Apollon",
+      "target": "Tityoktonos",
+      "name": "HasEpithetStatement"
+    },
+    {
+      "source": "Apollon",
+      "target": "Lykoreus",
+      "name": "HasEpithetStatement"
+    },
+    {
+      "source": "Apollon",
+      "target": "Phoibos",
+      "name": "HasEpithetStatement"
+    },
+    {
+      "source": "Apollon",
+      "target": "Pytheion",
+      "name": "HasEpithetStatement"
+    },
+    {
+      "source": "Apollon",
+      "target": "Titan",
+      "name": "HasEpithetStatement"
     },
     {
       "source": "Hades",
